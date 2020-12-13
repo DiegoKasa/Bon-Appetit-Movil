@@ -1,0 +1,39 @@
+ion-slide {
+    display: block;
+    margin-top: 30%;
+}
+
+img{
+    max-width: 330px;
+    text-align: center;
+}
+
+// .slide-img {
+//     padding: 35px;
+// }
+
+h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.btn-primary {
+    height: 50px;
+    margin: 12px;
+}
+
+@media screen and (max-height: 775px) {
+    img {
+        width: 70%;
+    }
+    h3 {
+        font-size: 100%;
+        font-weight: lighter;
+    }
+    .btn-primary {
+        height: 35px;
+        font-size: 70%;
+    }
+}
